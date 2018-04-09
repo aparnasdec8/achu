@@ -1,5 +1,4 @@
-my name is ammuuuu
-ammuuuuzzzzz
+my name is ammuu
 tudent@T11:~$ cd flower
 student@T11:~/flower$ cd ..
 student@T11:~$ git config --global user.name"aparnasdec8"
