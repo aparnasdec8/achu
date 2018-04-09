@@ -1,2 +1,834 @@
 my name is ammuuuu
 ammuuuuzzzzz
+tudent@T11:~$ cd flower
+student@T11:~/flower$ cd ..
+student@T11:~$ git config --global user.name"aparnasdec8"
+student@T11:~$ git config --global user.email"aparnasanthosh@mca.ajce.in"
+student@T11:~$ git init achu
+Initialized empty Git repository in /home/student/achu/.git/
+student@T11:~$ cd achu
+student@T11:~/achu$ gedit README
+student@T11:~/achu$ gedit ammu
+student@T11:~/achu$ git add README
+student@T11:~/achu$ git add ammu
+student@T11:~/achu$ git commit -m "Done"
+[master (root-commit) 6e1fb5c] Done
+ 2 files changed, 1 insertion(+)
+ create mode 100644 README
+ create mode 100644 ammu
+student@T11:~/achu$ git status
+On branch master
+nothing to commit, working directory clean
+student@T11:~/achu$ git remote add origin https://github.com/aparnasdec8/achu.git
+student@T11:~/achu$ git push origin master
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 263 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/aparnasdec8/achu.git
+ * [new branch]      master -> master
+student@T11:~/achu$ git clone https://github.com/aparnasdec8/achu.git
+Cloning into 'achu'...
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 4 (delta 0), reused 4 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+Checking connectivity... done.
+student@T11:~/achu$ git fetch https://github.com/aparnasdec8/achu.git
+From https://github.com/aparnasdec8/achu
+ * branch            HEAD       -> FETCH_HEAD
+student@T11:~/achu$ git merge origin/master
+Already up-to-date.
+student@T11:~/achu$ git fetch https://github.com/aparnasdec8/achu.git
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/aparnasdec8/achu
+ * branch            HEAD       -> FETCH_HEAD
+student@T11:~/achu$ git merge origin/master
+Already up-to-date.
+student@T11:~/achu$ git fetch origin master
+From https://github.com/aparnasdec8/achu
+ * branch            master     -> FETCH_HEAD
+   6e1fb5c..a2e2f79  master     -> origin/master
+student@T11:~/achu$ git merge origin/master
+Updating 6e1fb5c..a2e2f79
+Fast-forward
+ ammu | 1 +
+ 1 file changed, 1 insertion(+)
+student@T11:~/achu$ git branch br1
+student@T11:~/achu$ git checkout br1
+Switched to branch 'br1'
+student@T11:~/achu$ gedit nw1
+
+(gedit:12874): GdkPixbuf-WARNING **: Cannot open pixbuf loader module file '/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache': No such file or directory
+
+This likely means that your installation is broken.
+Try running the command
+  gdk-pixbuf-query-loaders > /usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders.cache
+to make things work again for the time being.
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry-disabled.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-toolbar.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-disabled.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-active.png': Unrecognized image file format
+
+** (gedit:12874): WARNING **: Could not load theme icon user-bookmarks-symbolic: Icon 'user-bookmarks-symbolic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon user-home-symbolic: Icon 'user-home-symbolic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon drive-harddisk-symbolic: Icon 'drive-harddisk-symbolic' not present in theme ubuntu-mono-dark
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon folder-symbolic: Icon 'folder-symbolic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon folder-symbolic: Icon 'folder-symbolic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon folder-symbolic: Icon 'folder-symbolic' not present in theme ubuntu-mono-dark
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-hover.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-toolbar-active-focused.png': Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+** (gedit:12874): WARNING **: Could not load theme icon text-x-generic: Icon 'text-x-generic' not present in theme ubuntu-mono-dark
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Unrecognized image file format
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:12874): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+student@T11:~/achu$ a
+a: command not found
+student@T11:~/achu$ git add nw1
+student@T11:~/achu$ git commit -m "Done"
+[br1 25ca4c7] Done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 nw1
+student@T11:~/achu$ git push origin br1
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 314 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/aparnasdec8/achu.git
+ * [new branch]      br1 -> br1
+student@T11:~/achu$ gedit nw2
+student@T11:~/achu$ git add nw2
+student@T11:~/achu$ git commit -m "Done"
+[br1 4db7af1] Done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 nw2
+student@T11:~/achu$ git push origin br1
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 266 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aparnasdec8/achu.git
+   25ca4c7..4db7af1  br1 -> br1
+student@T11:~/achu$ git branch -d nw1
+error: branch 'nw1' not found.
+student@T11:~/achu$ git branch -d br1
+error: Cannot delete the branch 'br1' which you are currently on.
+student@T11:~/achu$ git branch -d br1
+error: Cannot delete the branch 'br1' which you are currently on.
+student@T11:~/achu$ git push origin --delete br1
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+To https://github.com/aparnasdec8/achu.git
+ - [deleted]         br1
+student@T11:~/achu$ git branch -d br1
+error: Cannot delete the branch 'br1' which you are currently on.
+student@T11:~/achu$ git branch checkout originmaster
+fatal: Not a valid object name: 'originmaster'.
+student@T11:~/achu$ git branch checkout master
+student@T11:~/achu$ git branch -d br1
+error: Cannot delete the branch 'br1' which you are currently on.
+student@T11:~/achu$ git branch
+* br1
+  checkout
+  master
+student@T11:~/achu$ git checkout master
+Switched to branch 'master'
+student@T11:~/achu$ git branch -d br1
+error: The branch 'br1' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D br1'.
+student@T11:~/achu$ git push origin --delete br1
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+error: unable to delete 'br1': remote ref does not exist
+error: failed to push some refs to 'https://github.com/aparnasdec8/achu.git'
+student@T11:~/achu$ cd ..
+student@T11:~$ cd Downloads
+student@T11:~/Downloads$ javac TCPClient.java
+TCPClient.java:9: error: ')' expected
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                        ^
+TCPClient.java:9: error: not a statement
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                          ^
+TCPClient.java:9: error: ';' expected
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                              ^
+3 errors
+student@T11:~/Downloads$ javac TCPClient.java
+TCPClient.java:9: error: ')' expected
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                        ^
+TCPClient.java:9: error: not a statement
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                          ^
+TCPClient.java:9: error: ';' expected
+			Socket sk=new Socket("Localhost",192.168.6.110);
+			                                              ^
+3 errors
+student@T11:~/Downloads$ javac TCPClient.java
+student@T11:~/Downloads$ java TCPClient
+Cannot connect to the server
+student@T11:~/Downloads$ javac TCPClient.java
+student@T11:~/Downloads$ java TCPClient
+Cannot connect to the server
+student@T11:~/Downloads$ javac TCPClient.java
+student@T11:~/Downloads$ java TCPClient
+hlooooooooooo
+kooiiiiiiiiiiiii
+kokooooooooooooooo
+donkeyyyyyyyyyyyyyyyyy
+
+
+^Cstudent@T11:~/Downloads$ cd ..
+student@T11:~$ cd achu
+student@T11:~/achu$ git rm -r --ammu
+error: unknown option `ammu'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git commit -m "Done"
+On branch master
+Untracked files:
+	achu/
+
+nothing added to commit but untracked files present
+student@T11:~/achu$ git push origin master
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Everything up-to-date
+student@T11:~/achu$ git checkout master
+Already on 'master'
+student@T11:~/achu$ git rm -r --ammu
+error: unknown option `ammu'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git commit -m "Done"
+On branch master
+Untracked files:
+	achu/
+
+nothing added to commit but untracked files present
+student@T11:~/achu$ git push origin master
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Everything up-to-date
+student@T11:~/achu$ git branch br2
+student@T11:~/achu$ git checkout br2
+Switched to branch 'br2'
+student@T11:~/achu$ gedit nw2
+student@T11:~/achu$ git add nw2
+student@T11:~/achu$ git commit -m "Done"
+[br2 12154ab] Done
+ 1 file changed, 1 insertion(+)
+ create mode 100644 nw2
+student@T11:~/achu$ git push origin br2
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/aparnasdec8/achu.git
+ * [new branch]      br2 -> br2
+student@T11:~/achu$ git rm -r --nw2
+error: unknown option `nw2'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git checkout br2
+Already on 'br2'
+student@T11:~/achu$ git rm -R --nw2
+error: unknown switch `R'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git checkout origin master
+error: pathspec 'origin' did not match any file(s) known to git.
+error: pathspec 'master' did not match any file(s) known to git.
+student@T11:~/achu$ git checkout master
+Switched to branch 'master'
+student@T11:~/achu$ git rm -R --nw2
+error: unknown switch `R'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git rm -r --nw2
+error: unknown option `nw2'
+usage: git rm [<options>] [--] <file>...
+
+    -n, --dry-run         dry run
+    -q, --quiet           do not list removed files
+    --cached              only remove from the index
+    -f, --force           override the up-to-date check
+    -r                    allow recursive removal
+    --ignore-unmatch      exit with a zero status even if nothing matched
+
+student@T11:~/achu$ git commit -m "Done"
+On branch master
+Untracked files:
+	achu/
+
+nothing added to commit but untracked files present
+student@T11:~/achu$ git push origin br2
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Everything up-to-date
+student@T11:~/achu$ git checkout br2
+Switched to branch 'br2'
+student@T11:~/achu$ git rm -r -- nw2
+rm 'nw2'
+student@T11:~/achu$ git commit -m "Done"
+[br2 dfd9b7c] Done
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 nw2
+student@T11:~/achu$ git push origin br2
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 215 bytes | 0 bytes/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/aparnasdec8/achu.git
+   12154ab..dfd9b7c  br2 -> br2
+student@T11:~/achu$ git branch -D br2
+error: Cannot delete the branch 'br2' which you are currently on.
+student@T11:~/achu$ git checkout master
+Switched to branch 'master'
+student@T11:~/achu$ git branch -D br2
+Deleted branch br2 (was dfd9b7c).
+student@T11:~/achu$ git push origin --delete br2
+Username for 'https://github.com': aparnasdec8
+Password for 'https://aparnasdec8@github.com': 
+To https://github.com/aparnasdec8/achu.git
+ - [deleted]         br2
+student@T11:~/achu$ 
